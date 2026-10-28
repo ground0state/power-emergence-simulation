@@ -30,10 +30,12 @@ python -m pip install -r requirements.txt
 python village_power_sim.py --runs 1000 --seed 2026 --output-dir results
 ```
 
-これにより、次の2ファイルが生成・更新されます。
+実行すると、次の2ファイルが生成・更新されます。
 
 - `results/village_results.csv` — シナリオ別の結果（割合）
-- `results/village_power_chart.svg` — 権力保持率のグラフ
+- `results/village_power_chart.png` — Pythonスクリプトが生成するグラフ
+
+GitHubに保存した `results/village_power_chart.svg` は同じCSV値を使って作成した表示用グラフです（このPythonスクリプトはSVGを生成しません）。
 
 ## モデルのルール
 
